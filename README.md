@@ -8,6 +8,7 @@ This ROS2 package implements a simple publisher-subscriber system:
 - `signal_modifier_node`: Subscribes to `/signal`, scales the value, and republishes it to `/modified_signal`.
 
 You can visualize both signals in real time using `rqt_plot`.
+![Path Plot](example.png)
 
 ## Package Structure
 
